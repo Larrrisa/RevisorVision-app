@@ -1,0 +1,72 @@
+.container {
+  padding-top: 1.6rem;
+}
+
+.item {
+  padding: 2.55rem 0;
+  display: flex;
+  align-items: center;
+  column-gap: 2.4rem;
+  font-size: 2.2rem;
+  line-height: 130%;
+  font-weight: 500;
+}
+
+.albums {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  padding-left: 5.6rem;
+}
+
+.album {
+  display: flex;
+  flex-direction: column;
+}
+
+.album_info {
+  display: flex;
+  align-items: center;
+  column-gap: 2.4rem;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3.2rem 5.5rem;
+  gap: 4.2rem;
+}
+
+.photo {
+  position: relative;
+  border-radius: 4px;
+  position: relative;
+}
+
+.photo:hover {
+  cursor: pointer;
+}
+
+.photo:hover .img_title {
+  display: block;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 69%);
+  position: absolute;
+  bottom: -10px;
+  left: 63px;
+  font-size: 12px;
+  border-radius: 4px;
+  width: 150px;
+  padding: 4px 8px;
+  z-index: 10;
+}
+
+.favorite {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.img_title {
+  display: none;
+}

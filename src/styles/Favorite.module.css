@@ -1,0 +1,47 @@
+.favorites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 26.2rem;
+}
+
+.heading {
+  font-size: 2.2rem;
+  line-height: 130%;
+  font-weight: 700;
+  padding-top: 3.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.text {
+  font-size: 1.8rem;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3.2rem 5.5rem;
+  gap: 4.2rem;
+}
+
+.photo_item {
+  width: 150px;
+}
+
+.photo_item p {
+  color: #787878;
+  line-height: 150%;
+  font-size: 1.4rem;
+}
+
+.photo {
+  position: relative;
+  margin-bottom: 1.2rem;
+  border-radius: 4px;
+}
+
+.favorite {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}

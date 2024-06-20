@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  font-size: 1.8rem;
+  margin-top: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.item {
+  padding: 1.6rem 13.9rem;
+}
+
+.item_active {
+  background-color: #edf9ff;
+  color: #117dc1;
+  padding: 1.6rem 13.9rem;
+  border-radius: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
